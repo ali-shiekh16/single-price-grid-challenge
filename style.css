@@ -107,9 +107,19 @@ h3 {
   background: hsl(179, 50%, 50%);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   body {
     padding: 5rem 30rem;
+  }
+
+  .card {
+    margin: 0 10rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 5rem 10rem;
   }
 
   .card__container {
